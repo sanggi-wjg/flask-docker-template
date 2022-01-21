@@ -6,5 +6,5 @@ COPY    requirements.txt ./requirements.txt
 RUN     pip install -r requirements.txt
 COPY    . .
 
-EXPOSE  9091
+EXPOSE  9001
 CMD     ["python", "app.py"]
